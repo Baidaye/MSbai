@@ -7,9 +7,6 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
 
-
-
-
     //测试项
     button = new QPushButton("Hallo" ,this);
     button->setGeometry(100,100,100,100);
