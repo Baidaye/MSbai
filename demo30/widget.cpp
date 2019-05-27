@@ -7,6 +7,10 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
 
+
+
+
+    //测试项
     button = new QPushButton("Hallo" ,this);
     button->setGeometry(100,100,100,100);
     button->setStyleSheet(" QPushButton{border: 1px solid #C0C0C0; \
